@@ -1,4 +1,4 @@
-# Hasing-with-SHA256-in-Cpp
+# Hashing-with-SHA256-in-Cpp
 ### Hashes
 ```cpp
 Your text               Hash                 Return type 

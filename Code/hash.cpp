@@ -1,11 +1,6 @@
 #include <iostream>
 #include <openssl/sha.h>
-#include <cstring>
 #include <array>
-#include "..\Files\main.cpp"
-
-std::array<unsigned char, 32ULL> hash(const std::string& message);
-void writeHash(const std::array<unsigned char, 32ULL>& hash);
 
 std::array<unsigned char, 32ULL> hash(const std::string& message) {
     // The message to be hashed

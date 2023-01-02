@@ -22,5 +22,6 @@ std::array<unsigned char, 32ULL> hash(const std::string& message) {
         std::cout << std::hex << (int)hash[i];
     std::cout << std::endl;
 
+    // Returns the hash
     return result;
 }
